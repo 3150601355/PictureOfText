@@ -1,3 +1,7 @@
+# 我是B站的UP主：偶尔有点小迷糊
+# 代码讲解视频：https://www.bilibili.com/video/BV1mq4y1n7aE/
+# 转载请保留此信息
+
 import sys
 from PIL import Image, ImageDraw, ImageFont # pip install pillow -i https://pypi.mirrors.ustc.edu.cn/simple/
 
