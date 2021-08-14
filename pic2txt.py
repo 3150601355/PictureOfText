@@ -9,11 +9,11 @@
 import sys
 
 try:
-    import requests
+    import pillow
 except :
     import os
-    os.system('pip install pillow')
-    from PIL import Image, ImageDraw, ImageFont # pip install pillow -i https://pypi.mirrors.ustc.edu.cn/simple/
+    os.system('pip install pillow  -i https://pypi.mirrors.ustc.edu.cn/simple/')
+    from PIL import Image, ImageDraw, ImageFont 
 
 CHILD_W = CHILD_H = 16                                      # 子图的尺寸，宽和高都是16像素
 txt = '我的心是冰冰的'                                      # 输出内容
@@ -33,6 +33,7 @@ if __name__ == '__main__':
 
     charIndex = 0                                           # 序号，代表当前绘制哪个汉字
     draw = ImageDraw.Draw(imgChild)                         # 取得小图的绘图对象，用于绘制文字
+    print("开始处理图片...")
     for y in range(h):
         for x in range(w):
             draw.rectangle( (0, 0, CHILD_W, CHILD_H), fill = 'lightgray' )  # 灰色背景效果比外色略好
