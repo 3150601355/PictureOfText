@@ -2,8 +2,18 @@
 # 代码讲解视频：https://www.bilibili.com/video/BV1mq4y1n7aE/
 # 转载请保留此信息
 
+# 此代码适用于python初学者，零基础或负基础的就别折腾了，书到用时方恨少哇
+# 此代码适用于python初学者，零基础或负基础的就别折腾了，书到用时方恨少哇
+# 此代码适用于python初学者，零基础或负基础的就别折腾了，书到用时方恨少哇
+
 import sys
-from PIL import Image, ImageDraw, ImageFont # pip install pillow -i https://pypi.mirrors.ustc.edu.cn/simple/
+
+try:
+    import requests
+except :
+    import os
+    os.system('pip install pillow')
+    from PIL import Image, ImageDraw, ImageFont # pip install pillow -i https://pypi.mirrors.ustc.edu.cn/simple/
 
 CHILD_W = CHILD_H = 16                                      # 子图的尺寸，宽和高都是16像素
 txt = '我的心是冰冰的'                                      # 输出内容
