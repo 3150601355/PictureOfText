@@ -2,7 +2,7 @@
 
 ## 0.前言
 
-原理及代码的讲解视频：[B站连接](https://www.bilibili.com/video/BV1mq4y1n7aE/)，使用方式也在视频里。
+原理及代码的讲解视频：[B站链接](https://www.bilibili.com/video/BV1mq4y1n7aE/)，使用方式也在视频里。
 
 
 ## 1.字体说明
